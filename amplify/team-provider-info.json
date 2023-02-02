@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nuxtapp-dev-214800-authRole",
+      "UnauthRoleArn": "arn:aws:iam::127847013811:role/amplify-nuxtapp-dev-214800-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::127847013811:role/amplify-nuxtapp-dev-214800-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-nuxtapp-dev-214800-deployment",
+      "UnauthRoleName": "amplify-nuxtapp-dev-214800-unauthRole",
+      "StackName": "amplify-nuxtapp-dev-214800",
+      "StackId": "arn:aws:cloudformation:us-east-2:127847013811:stack/amplify-nuxtapp-dev-214800/fe1cf970-a1f3-11ed-9c8d-067a1a1d8876",
+      "AmplifyAppId": "d33doyg98jv5j3",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-nuxtapp-dev-214800-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "nuxtapp80a3b2f1": {}
+      },
+      "function": {
+        "nuxtapp80a3b2f1PostConfirmation": {
+          "deploymentBucketName": "amplify-nuxtapp-dev-214800-deployment",
+          "s3Key": "amplify-builds/nuxtapp80a3b2f1PostConfirmation-76384f4649707045346d-build.zip"
+        }
+      }
+    }
+  }
+}

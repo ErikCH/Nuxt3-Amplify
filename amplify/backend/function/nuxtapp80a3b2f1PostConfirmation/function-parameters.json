@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "nuxtapp80a3b2f1",
+  "functionName": "nuxtapp80a3b2f1PostConfirmation",
+  "resourceName": "nuxtapp80a3b2f1PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "nuxtapp80a3b2f1PostConfirmation",
+  "skipEdit": true,
+  "enableCors": false
+}

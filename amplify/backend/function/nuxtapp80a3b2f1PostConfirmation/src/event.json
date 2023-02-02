@@ -1,0 +1,21 @@
+{
+  "version": "1",
+  "region": "us-east-2",
+  "userPoolId": "us-east-2_AYRx6Ij9D",
+  "userName": "c6f49233-1029-4edf-8167-2b3c6ef88820",
+  "callerContext": {
+    "awsSdkVersion": "aws-sdk-unknown-unknown",
+    "clientId": "57fdh6lco2o3d7n9slhtddjuc"
+  },
+  "triggerSource": "PostConfirmation_ConfirmSignUp",
+  "request": {
+    "userAttributes": {
+      "sub": "c6f49233-1029-4edf-8167-2b3c6ef88820",
+      "email_verified": "true",
+      "cognito:user_status": "CONFIRMED",
+      "cognito:email_alias": "icystorm@gmail.com",
+      "email": "icystorm@gmail.com"
+    }
+  },
+  "response": {}
+}
