@@ -19,8 +19,15 @@
       "function": {
         "nuxtapp80a3b2f1PostConfirmation": {
           "deploymentBucketName": "amplify-nuxtapp-dev-214800-deployment",
-          "s3Key": "amplify-builds/nuxtapp80a3b2f1PostConfirmation-76384f4649707045346d-build.zip"
+          "s3Key": "amplify-builds/nuxtapp80a3b2f1PostConfirmation-446e4c364e6333645361-build.zip"
+        },
+        "nuxtdeployedapp": {
+          "deploymentBucketName": "amplify-nuxtapp-dev-214800-deployment",
+          "s3Key": "amplify-builds/nuxtdeployedapp-4d74684578316c426677-build.zip"
         }
+      },
+      "custom": {
+        "customcdk": {}
       }
     }
   }

@@ -37,8 +37,32 @@
       "service": "Cognito"
     }
   },
+  "custom": {
+    "customcdk": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "Region",
+            "LambdaExecutionRole",
+            "LambdaExecutionRoleArn"
+          ],
+          "category": "function",
+          "resourceName": "nuxtdeployedapp"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "customCDK"
+    }
+  },
   "function": {
     "nuxtapp80a3b2f1PostConfirmation": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "nuxtdeployedapp": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
@@ -59,6 +83,22 @@
         {
           "category": "function",
           "resourceName": "nuxtapp80a3b2f1PostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_nuxtdeployedapp_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "nuxtdeployedapp"
+        }
+      ]
+    },
+    "AMPLIFY_function_nuxtdeployedapp_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "nuxtdeployedapp"
         }
       ]
     }

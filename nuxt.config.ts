@@ -4,7 +4,12 @@ export default defineNuxtConfig({
   alias: {
     "./runtimeConfig": "./runtimeConfig.browser"
   },
-  ssr: false,
+  nitro: {
+    preset: "aws-lambda"
+  },
+  app: {
+    cdnURL: process.env.CF_CDN || "https://example.com"
+  },
   vite: {
     define: {
       "window.global": {}

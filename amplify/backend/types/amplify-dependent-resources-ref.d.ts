@@ -10,8 +10,21 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolName": "string"
     }
   },
+  "custom": {
+    "customcdk": {
+      "APIEndpoint": "string",
+      "DistributionDomainName": "string"
+    }
+  },
   "function": {
     "nuxtapp80a3b2f1PostConfirmation": {
+      "Arn": "string",
+      "LambdaExecutionRole": "string",
+      "LambdaExecutionRoleArn": "string",
+      "Name": "string",
+      "Region": "string"
+    },
+    "nuxtdeployedapp": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",
