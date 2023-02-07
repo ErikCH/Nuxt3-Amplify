@@ -23,11 +23,14 @@
         },
         "nuxtdeployedapp": {
           "deploymentBucketName": "amplify-nuxtapp-dev-214800-deployment",
-          "s3Key": "amplify-builds/nuxtdeployedapp-4d74684578316c426677-build.zip"
+          "s3Key": "amplify-builds/nuxtdeployedapp-6b70396675445332374d-build.zip"
         }
       },
       "custom": {
         "customcdk": {}
+      },
+      "api": {
+        "nuxtapp": {}
       }
     }
   }
